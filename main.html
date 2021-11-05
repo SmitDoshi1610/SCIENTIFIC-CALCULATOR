@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="heading">
+        <h1><marquee>Scientific Calculator</marquee></h1>
+    </div>
+    <div class="dis"><input type="text" id="display" placeholder="0"></div><br>
+    <div id="main-container">
+        <div id="sc">
+            <button onclick="sqa()" class="scientific">X<sup>2</sup></button>
+            <button class="scientific">X<sup>Y</sup></button>
+            <button value="(" onclick="abc(this.value)" class="scientific">(</button>
+            <button value=")" onclick="abc(this.value)" class="scientific">)</button>
+            <button onclick="cube()" class="scientific">X<sup>3</sup></button>
+            <button onclick="sin()" id="sin" class="scientific">Sin</button>
+            <button onclick="cos()" id="cos" class="scientific">Cos</button>
+            <button onclick="tan()" id="tan" class="scientific">Tan</button>
+             <button onclick="sinh()" id="sinh" class="scientific">Sinh</button>
+            <button onclick="cosh()" id="cosh" class="scientific">Cosh</button>
+            <button onclick="tanh()" id="tanh" class="scientific">Tanh</button>
+            <button onclick="sinin()" class="scientific">Sin<sup>-1</sup></button>
+            <button onclick="cosin()" class="scientific">Cos<sup>-1</sup></button>
+            <button onclick="tanin()" class="scientific">Tan<sup>-1</sup></button>
+            <button onclick="sininh()" class="scientific">Sinh<sup>-1</sup></button>
+            <button onclick="cosinh()" class="scientific">Cosh<sup>-1</sup></button>
+            <button onclick="taninh()" class="scientific">Tanh<sup>-1</sup></button>
+            <button onclick="log()" class="scientific">log</button>
+            <button onclick="mod()" class="scientific">Mod</button>
+            <button onclick="exp()" class="scientific">e<sup>x</sup></button>
+            <button class="scientific" onclick="tenpow()">10<sup>x</sup></button>
+            <button onclick="ln()" class="scientific">ln</button>
+            <button onclick="pi()" class="scientific">&#960;</button>
+            <button value="**" onclick="abc(this.value)" class="scientific">^</button>
+            <button onclick="factorial()" class="scientific">n!</button>
+        </div>
+        <div id="normal">
+
+            <button value="7" onclick="abc(this.value)">7</button>
+            <button value="8" onclick="abc(this.value)">8</button>
+            <button value="9" onclick="abc(this.value)">9</button>
+            <button onclick="erase()" class="ac">DEL</button>
+            <button onclick="clr()" class="ac">AC</button>
+            <button value='4' onclick="abc(this.value)">4</button>
+            <button value="5" onclick="abc(this.value)">5</button>
+            <button value="6" onclick="abc(this.value)">6</button>
+            <button value='*' onclick="abc(this.value)">X</button>
+            <button value='/' onclick="abc(this.value)">/</button>
+            <button value="1" onclick="abc(this.value)">1</button>
+            <button value="2" onclick="abc(this.value)">2</button>
+            <button value="3" onclick="abc(this.value)">3</button>
+            <button value="+" onclick="abc(this.value)">+</button>
+            <button value="-" onclick="abc(this.value)">-</button>
+            <button value="00" onclick="abc(this.value)">00</button>
+            <button value="0" onclick="abc(this.value)">0</button>
+            <button value="." onclick="abc(this.value)">.</button>
+            <button onclick="sqrt()">&Sqrt;</button>
+            <button onclick="ans(this.value)" class="ans">Ans</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

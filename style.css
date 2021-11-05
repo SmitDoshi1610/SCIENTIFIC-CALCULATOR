@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    height: 8vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    background-color:#ffa801;
+    padding-bottom: 8px;
+    margin-top: 0;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.dis{
+    background-color: #ffc048;
+    display: inline-block;
+    padding: 20px 305px 20px 30px;
+    position: relative;
+}
+#main-container {
+    background-color:#ffa801;
+    margin-top: 0;
+    height: 73vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container {
+    border: 2px solid black;
+    display: block;
+    height: 100%;
+}
+
+#display {
+    font-size: 80px;
+    text-align: right;
+    padding-right: 50px;
+    height: 80px;
+    margin-left: 30%;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px black;
+}
+
+button {
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 0px 0px 10px black;
+    font-weight: bold;
+}
+.scientific{
+    width: 95px;
+    height: 60px;
+    font-size: 20px;
+    padding: 2px 5px 5px 5px;
+}
+
+#sc {
+    margin-top: 50px;
+    height: 100%;
+    width: 50%;
+    display: block;
+    margin-left: 20px;
+}
+
+#normal {
+    height: 100%;
+    width: 50%;
+    margin-top: 50px;
+    display: block;
+}
+
+#change {
+    padding: 2px 2px 2px 2px;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+.ac{
+    color: white;
+    background-color: red;
+}
+.ans{
+    background-color: green;
+    color: white;
+}
